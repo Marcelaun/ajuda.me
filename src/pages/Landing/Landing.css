@@ -1,0 +1,33 @@
+.landing-page-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+
+}
+
+.description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  gap: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+  
+}
+
+.landing-title {
+  font-size: 2.4rem;
+  color: #302f2f;
+}
+
+.landing-text {
+  font-size: 1.8rem;
+  color: #b64a37;
+}
+
+@media screen and (max-width:768px) {
+
+}

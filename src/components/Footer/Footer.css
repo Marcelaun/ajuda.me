@@ -1,0 +1,74 @@
+.svg-wave {
+ z-index: -1;
+}
+
+.logo-img {
+  width: 22rem;
+}
+
+.social-media-name {
+  color: #b64a37;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+
+.endereco {
+  color: #b64a37;
+}
+
+
+.social-media-links-send {
+  color: #b64a37;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  font-size: 1.7rem;
+}
+
+.links-send {
+  color: #b64a37;
+  display: flex;
+  font-size: 1.7rem;
+}
+
+
+
+.content-display {
+  background-color: #f8f8f8;
+  width: 80%;
+  padding: 3rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.links-container {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  color: #808080;
+}
+
+.links {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  text-decoration: none;
+  color: #b64a37;
+}
+
+@media screen and (max-width: 1030px) {
+  .content-display {
+    flex-wrap: wrap;
+    width: 95%;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+}
+
