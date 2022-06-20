@@ -67,7 +67,8 @@
 
 .hamb-menu-open {
   position: absolute;
-  right: 10rem;
+  right: 2rem;
+  top: 2rem;
   
 }
 
@@ -83,11 +84,12 @@
   padding: 2rem;
   display: flex;
   
+  
   flex-direction: column-reverse;
   align-items: center;
   justify-content: flex-end;
   gap: 4rem;
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   background-color: #fff;
   -webkit-animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -128,5 +130,17 @@
     display: block;
     
 
+  }
+
+  .nav-links {
+    font-size: 2.4rem;
+  }
+
+  .nav-logo {
+    width: 16rem;
+  }
+
+  .login-btn {
+    font-size: 2.4rem;
   }
 }

@@ -23,10 +23,43 @@
   color: #302f2f;
 }
 
-.landing-text {
+.landing-text-orange {
   font-size: 1.8rem;
   color: #b64a37;
 }
+
+.landing-text {
+  font-size: 1.8rem;
+  color: #302f2f;
+}
+
+.img-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: #fff2f0;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.img-desc-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.location-img {
+  width: 30rem;
+  
+}
+
+.img-desc-text {
+  font-size: 1.3rem;
+  color: #b64a37;
+}
+
+
 
 @media screen and (max-width:768px) {
 

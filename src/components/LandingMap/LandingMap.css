@@ -1,0 +1,54 @@
+.map-box-container {
+  width: 100rem;
+  padding: 2rem;
+  border: 2px solid #b64a3773;
+  border-radius: 8px;
+  background-color: #b64a3773;
+  margin-top: 2rem;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 80vh;
+}
+
+.map-title {
+  font-size: 2rem;
+  color: #302f2f;
+}
+
+.popup-text {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #b64a37;
+}
+
+.popup-box {
+  
+}
+
+.location-btn {
+  padding: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #302f2f;
+  transition: 0.5s;
+}
+
+.location-btn:hover {
+  background-color: #b64a37;
+  color: #fff;
+}
+
+@media screen and (max-width:768px) {
+  .map-box-container {
+    width: 40rem;
+    padding: 3rem;
+    border: none;
+    background-color: transparent;
+  }
+}
