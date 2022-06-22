@@ -2,9 +2,11 @@ import "./Footer.css";
 import { Link } from "react-router-dom";
 import LogoImg from "../../assets/ajuda-me-logo.svg";
 import WhatsappImg from "../../assets/whatsapp.svg";
+import Picos from '../../assets/picos.svg';
 
 export function Footer() {
   return (
+    <>
     <footer className="footer-main-container">
       <div className="content-display">
         <div className="links-container">
@@ -70,6 +72,9 @@ export function Footer() {
           <img className="logo-img" src={LogoImg} alt="re-cycle" />
         </div>
       </div>
+      <img className="picos-img" src={Picos} alt="picos" />
     </footer>
+   
+    </>
   );
 }
