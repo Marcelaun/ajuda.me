@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background: transparent;
+}
+
 ol, ul {
   list-style: none;
 }

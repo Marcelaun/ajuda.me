@@ -6,6 +6,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: transparent;
   
 }
 
@@ -15,7 +16,7 @@
   font-family: 'Poppins', sans-serif;
   color: #b64a37;
   transition: 0.5s;
-  border-bottom: 1px solid #fff;
+  
 }
 
 .nav-links:hover {

@@ -2,9 +2,24 @@
 .login-component-main {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   margin-bottom: 8rem;
+  background-image: url("../../assets/blob-scene-haikei2.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+  on the container's size */
+  background-size: cover;
+
  
 }
+
+
 
 .login-input-box {
   font-size: 1.8rem;
@@ -44,6 +59,8 @@
   flex-direction: column;
   justify-content: center;
   margin-top: 8rem;
+  background-color: #fff;
+  margin-bottom: 4rem;
 }
 
 .form-title {
@@ -90,6 +107,7 @@
   color: #242424;
   cursor: pointer;
   transition: 0.5s;
+  margin-bottom: 8rem;
 }
 
 .login-google:hover {
@@ -99,4 +117,11 @@
 
 .google-icon {
   width: 2rem;
+}
+
+
+@media screen and (max-width:525px) {
+  .login-component-main {
+    background-image: none;
+  }
 }

@@ -1,0 +1,81 @@
+.contacts-main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+
+}
+
+.contacts-list {
+  border-radius: 8px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-social-media-links {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: #b64a37;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts-social-media-name {
+  
+}
+
+.contacts-text {
+  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1rem;
+  
+}
+
+.contacts-box {
+  box-shadow: 0 0 1rem #f1f1f1;
+  padding: 3rem;
+  border-radius: 8px;
+}
+
+.email-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.8rem;
+  color: #b64a37;
+  font-weight: 600;
+  
+}
+
+.contacts-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  color: #b64a37;
+}
+
+.contacts-img {
+  width: 50rem;
+}
+
+@media screen and (max-width:768px) {
+  .contacts-main-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .contacts-img {
+    width: 35rem;
+  }
+}
