@@ -75,3 +75,9 @@
   
 }
 
+@media screen and (max-width:375px) {
+  .content-display {
+    width: 70%;
+  }
+}
+

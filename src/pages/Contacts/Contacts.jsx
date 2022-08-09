@@ -13,8 +13,8 @@ export function Contacts() {
     <section className="contacts-main-container">
       <div className="contacts-box">
         <div className="text-box">
-        <h2 className="contacts-title">Contatos</h2>
-        <h3 className="contacts-text">Obrigado pelo interesse em entrar em contato conosco!</h3>
+        <h3 className="contacts-text">Obrigado pelo interesse em nos contatar!</h3>
+       
         </div>
 
         <div className="contacts-list">

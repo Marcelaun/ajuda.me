@@ -40,7 +40,7 @@
   gap: 3rem;
   background-color: #fff2f0;
   padding: 2rem;
-  
+
   border-radius: 8px;
 
 }
@@ -64,5 +64,11 @@
 
 
 @media screen and (max-width:768px) {
+  .location-img {
+    width: 22rem;
+    
+  }
 
+  
+  
 }

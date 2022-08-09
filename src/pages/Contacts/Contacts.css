@@ -4,7 +4,8 @@
   align-items: center;
   gap: 4rem;
   padding: 4rem;
-
+  box-shadow: 0 0 1rem #f1f1f1;
+  margin-bottom: 8rem;
 }
 
 .contacts-list {
@@ -35,19 +36,18 @@
   flex-direction: column;
 }
 
-.contacts-social-media-name {
-  
-}
+
 
 .contacts-text {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   margin-top: 1rem;
+  color: #2c2c2c;
   
 }
 
 .contacts-box {
-  box-shadow: 0 0 1rem #f1f1f1;
+  
   padding: 3rem;
   border-radius: 8px;
 }
@@ -60,10 +60,15 @@
   
 }
 
+.contacts-social-media-name {
+  font-size: 1.6rem;
+}
+
 .contacts-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 3.5rem;
-  color: #b64a37;
+  font-size: 2.8rem;
+  color: #2c2c2c;
+  margin-top: 2rem;
 }
 
 .contacts-img {

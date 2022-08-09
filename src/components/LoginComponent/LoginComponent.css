@@ -124,4 +124,16 @@
   .login-component-main {
     background-image: none;
   }
+
+  
+}
+
+@media screen and (max-width:375px) {
+  .login-form {
+    width: 80%;
+  }
+
+  .login-input-box {
+    width: 20rem;
+  }
 }
