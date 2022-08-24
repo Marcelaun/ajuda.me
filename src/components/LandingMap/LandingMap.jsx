@@ -9,6 +9,8 @@ import {
   useMapEvents,
 } from "react-leaflet";
 
+const Markers = [[-16.1883, -40.685], [-16.1887, -40.688], [-16.1881, -40.682]];
+
 export function LandingMap() {
   function LocationMarker() {
     const [position, setPosition] = useState(null);
@@ -43,7 +45,9 @@ export function LandingMap() {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Marker position={[-16.1887, -40.688]}>
+          {Markers.map((marker) => {
+            return (
+              <Marker position={marker} key={marker}>
             <Popup className="popup-box">
               <h2 className="popup-text">
                 {" "}
@@ -51,6 +55,8 @@ export function LandingMap() {
               </h2>
             </Popup>
           </Marker>
+            );
+          })}
         </MapContainer>
 
        
